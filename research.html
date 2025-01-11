@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 18px}
+-->
+</style>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Research in Statistics and Mathematics &hellip;</h1>
+</div>
+<p class="style1">I have extensive interests and expertise in Statistics and Mathematics. I have conducted research on  simultaneous inference for high-dimensional
+dependent data and for high-dimensional discrete data, and on exponential family of distributions,  Ito diffusion processes and time series
+models. <strong>I am shifting my research efforts to statistical modeling and inference on non-Euclidean data, and mathematical foundation of neural network models </strong>. These research topics will use a variety of tools in mathematics, including real/complex/functional/harmonic analysis, measure/probability theory, (stochastic) differential/integral equations, differential geometry, and topology. </p>
+<h3>Information on Some Projects</h3>
+<p>On this web page, papers that are marked as &quot;Preprint&quot; can be downloaded from arXiv.org, as &quot;Published&quot; can be obtained from their publishing journals, as &quot;Manuscript&quot; are not on arXiv or published, and as &quot;In preparation&quot; are not finished. </p>
+<h3>A. Current projects by Topics </h3>
+<ol>
+  <li><strong>Interaction between algebra, geometry, topology and statistics</strong>: The Euclidean space is a topological space, an additive group, a metric space, a manifold, and a vector space, for which these 5 structures are compatible. This is why we can do nice statistics and probability theory in the Euclidean space. Suppose we remove the vector space structure from the Euclidean space, then linear models cannot be defined any more (globally); suppose we remove the additive group structure from the Euclidean space, then additive models and location-shift distributions cannot be defined any more; suppose we remove the manifold structure from the Euclidean space, then the central limit theorem may not hold anymore and the second pillar of statistics collapses;  suppose we remove the metric structure from the Euclidean space, then the Glivenko–Cantelli  theorem theorem may not hold any more and the first pillar of statistics collapses. In fact, without a metric or group structure, pretty much little statistics can be done. However, there are many real world data sets whose modeling data spaces lack one or several of the 5 structures mentioned earlier. So, a natural question is &quot;To conduct sensible statistical inference and/or modeling, what are the needed minimal requirements on the algebraic, topological and/or geometric structures on the data space?&quot;</li>
+  </p>
+  <li><strong>Statistics for neural networks (and in particular, deep convolutional neural networks (CNNs)) and study of &quot;big models&quot;</strong>: Deep CNNs have demonstrated remarkable precision in binary classification (and other prediction) tasks. However, they belong to the class of models, which I call &quot;big models&quot;, whose complexities are far beyond &quot;small models&quot; that have been the dominant ones in statistics. Little is known on the non-asymptotic statistical properties of CNNs; e.g., their performances in terms of FDR. In general, statistics has just started studying &quot;big models&quot; in the era of &quot;big data &quot;, and there is a lot to be done for them.</li>
+  </p>
+  <li><strong>The Tukey-Kramer conjecture for multiple testing</strong>: For some details on this conjecture, please read 
+    “John W. Tukey's contributions to multiple comparisons” by Yoav  Benjamini and Henry Braun. It is about a claim that using the average of correlations among a set of test statistics in multiple testing for FDR control actually works (conservatively) and that we do not need to use or take into account the full dependence structure. </li>
+  </p>
+  <li><strong>Control of multiple error criteria in multiple testing</strong>: Most works in multiple testing control one error criterion such as the k-FDR or k-FWER without necessarily ensuring power at a prespecified level. However, in practice there are situations where we need to control multiple error criteria simultaneously or control the same error criterion on different &quot;layers&quot; or &quot;groups&quot; of hypotheses when taking into consideration structures of a set of hypotheses and at the same time ensure a prespecified power level. Needless to say, this is a very challenge task since there are examples of procedures that optimize for an error criterion and a power criterion but behave unstably or insensibly. Further, this is related to multiple testing structured hypotheses, which is a current trend in multiple testing.</li></p>
+  <li><b>FDR control under dependence: </b>Up till now, we are only aware of two types of dependence, namely, PRDS and reverse martingale, for which the famous Benjamini-Hochberg (BH) procedure is conservative. It is known that BH procedure is not conservative when, e.g., PRDS is reverted. So, a natural question is &quot;Can we identify another type of dependence for which the BH procedure is conservative?&quot; or &quot;How can we modify the step-up critical constants of the BH procedure nontrivially to account for dependence and maintain FDR control?&quot; On the other hand, there is considerable numerical evidence that some adaptive FDR procedures are conservative under positive dependence even though they have not been theoretically proven so. So, a natural question is &quot;Can we prove that they are actually under such dependence?&quot; or &quot;Can we classify distributions or nontrivial dependence structures that satisfy conditional PRDS?&quot;</li>
+</ol>
+ <h3>B. Past Projects in Statistics by Topics </h3>
+ <ul>
+  <li><b>The proportion of true null hypotheses or false null hypotheses: </b>The proportions of true null and false null hypotheses play important roles in statistical modeling and inference (e.g., they are key components of the Bayesian two-component mixture model, their extensions, and decision rules for these models) and appear in the upper bounds on the false discovery rate (FDR) and false nondiscovery rate (FNR) of a multiple testing procedure (MTP). These proportions have to be estimated in order to implement decision rules that are associated with the Bayesian two-component mixture models, and information on these proportions can help better control the FDR and FNR of an MTP. For the latter, estimators of these proportions can be used to construct adaptive FDR and FNR procedures that are more powerful than their non-adaptive counterparts. A good starting point is to read #d below. </li>
+</ul>
+<ol>
+  <ol>
+    <li>
+      Xiongzhi Chen (2025): Uniformly consistent proportion estimation for composite  hypotheses via integral equations: ``the case of Gamma random variables&quot;. (To appear)
+    </li>
+    <li>Xiongzhi Chen (2025): Uniformly consistent proportion estimation for  composite hypotheses via integral equations: ``the case of location-shift  families''.   (Preprint. Manuscript in Item 5 has been splited into Item 1 and Item 2) </li>
+    <li>Xiongzhi Chen (2021+): <em>Consistent estimation of the proportion of false nulls and FDR for adaptive multiple testing Normal means under weak dependence</em>. (Preprint)</li>
+    <li>Xiongzhi Chen (2019): <em>Uniformly consistently estimating the proportion of false null hypotheses via Lebesgue-Stieltjes integral equations</em>. (Published)</li>
+      <li>Xiongzhi Chen (2019): <em>Uniformly consistently estimating the proportion of false null hypotheses for composite null hypotheses via Lebesgue-Stieltjes integral equations</em>. (Preprint)</li>
+      <li>Xiongzhi Chen and R.W. Doerge (2014): <em>A consistent estimator of the proportion of nonzero Normal means under certain strong covariance dependence.</em> (Preprint)</li>
+      <li>Xiongzhi Chen and John D. Storey (2014): <i>Estimating the proportion of true null hypotheses via goodness of fit.</i> (Mansucript) </li>
+  </ol>
+</ol>
+<ul>
+  <li><b>False discoverate rate (FDR) procedures</b><strong>: </strong>FDR is a modern criterion on &quot;overall type I error&quot; for simultaneously testing tens up to millions of hypotheses. FDR procedures are MTPs whose FDRs are controlled at a prespecified level that is specified by a users. A recent trend in research on FDR procedures is to utilize additional information beyond just p-values or structural information possessed by hypotheses, so as to make more scientific discoveries by controlling FDRs at a prespecified level. On the other hand, conventional FDR procedures may lose some power when applied to discrete statistics or discrete p-values, and there is a need to develop FDR procedures or improve existing ones for discrete data. There are various ways to each of these two tasks, and any of the following papers can be a starting point. </li>
+</ul>
+<ol>
+    <ol>
+      <li>
+        Xiongzhi Chen, R.W. Doerge and Sanat K. Sarkar (2020): <i>A weighted FDR procedure under discrete and heterogeneous null distributions.</i> (Published;
+      R package &lsquo;&lsquo;fdrDiscreteNull&rsquo;&rsquo; on <a href="http://cran.r-project.org/">CRAN</a>).</li>
+      <li>Xiongzhi Chen, R.W. Doerge and Joseph F. Heyse (2018): <em>Multiple testing with discrete data: proportion of true null hypotheses and two adaptive FDR procedures</em>. (Published;  R package &lsquo;&lsquo;fdrDiscreteNull&rsquo;&rsquo; on <a href="http://cran.r-project.org/">CRAN)</a>. </li>
+      <li>Xiongzhi Chen, David G. Robinson and John D. Storey (2019): <i>Functional false discovery rate with application to genomics.</i> (Published)   </li>
+      <li>Xiongzhi Chen (2020): <em>False discovery rate control for multiple testing based on discrete p-values</em>. (Published) </li>
+      <li>Xiongzhi Chen and Sanat K. Sarkar (2019): <em>On Benjamini-Hochberg procedure applied to mid p-values</em>. (Published) </li>
+      <li>Shinjini Nandi, Sanat K. Sarkar and Xiongzhi Chen (2021): <em>Adapting to one- and two-way classified structures of hypotheses while controlling the false discovery rate</em>. (Published) </li>
+      <li>Xiongzhi Chen and R.W. Doerge (2012): <em>Towards better FDR procedures for discrete test statistics</em>. (Published) </li>
+    </ol>
+</ol>
+<ul>
+  <li><b>Modelling </b><strong>via latent, low-dimensional linear space: </strong>Due to experimental designs that have produced a high-dimensional data set, observations in the data set may have a low dimensional structure for the expectations (or variances) of the random variables that are used to model them. A simple way is to assume that the expectations lie in the linear space spanned by some latent vectors, leading to low dimensional, linear latent space for the mean (or variance) space. This strategy can be generalized, so that the means (or variances) as point set in an ambient Euclidean space has a low dimensional manifold. These low dimensional structures not only provide an efficient way of dimension reduction (and also assist downstream analysis of data) but also can be used to assess whether certain parametric assumptions on the modeling random variables are valid. It turns out that when the modeling random variables are members of an exponential family with a specific mean-variance relationship, this low dimensional, latent linear space can be consistently estimated even when each such random variable has only one observation. Identifying exponential families for which such a low dimensional, latent linear space can be consistently estimated when each modeling random variable has only one observation leads to the study of reduction functions of exponential families and classification of such families via the existence of reduction functions. A good starting point is to read #a below. </li>
+</ul>
+    <ol>
+	<ol>
+      <li>Xiongzhi Chen and John D. Storey (2015): <i>Consistent estimation of low-dimensional latent structure in high-dimensional data. </i>(Preprint)
+      <li>John D. Storey, Keyur H. Desai and Xiongzhi Chen (2013): <em>Empirical Bayes inference of dependent high-dimensional data</em>. (Manuscript)</li> 
+      <li>Xiongzhi Chen and John D. Storey (2014): <em>Nonparametric empirical Bayes estimation of the surrogate variable analysis model</em>. (Manuscript)</li>
+      <li>Xiongzhi Chen, Wei Hao and John D. Storey: <em>Regression herding</em>. (In preparation.)</li>
+    </ol>
+	</ol>
+ <ul>
+  <li><b>Multiple testing and stochastic processes under dependence: </b>For inference on high-dimensional data,  the associated test statistics are often dependent and can have a complicated dependence structure. In this setting, the false discovery proportion (FDP), whose expectation is the FDR, can be very unstable even though its expectation can be close to a prespecified value. Since often an experiment is carried out once, we only observe an instance of the FDP when we want to control the FDR. So, it is somehow dangerous to claim a control of FDR when we actually just have observed one value of FDP. One line of research to control FDR under dependence is to investigate the convergence of three key empirical processes that are induced by an MTP, namely, the process of the number of false rejections, that of the total number of rejections, and the FDP process. Among several notations of convergence of probability measures, the strong law of large numbers (SLLN) is perhaps the strongest. If an empirical process satisfies the SLLN, then we are very certain about its instability and stability asymptotically. The following are works along this line, and most of them use orthogonal polynomials that are associated with bivariate Lancaster distributions (including, e.g., bivariate Gaussian, bivariate Gamma, etc) and asymptotics of special functions such as the Gamma functions and Bessel functions. A good starting point is to read #a below. </li>
+</ul>
+    <ol>
+	<ol>
+      <li>Xiongzhi Chen and R.W. Doerge (2020): <i>A strong law of larger numbers related to multiple testing normal means.</i> (Published)</li>
+      <li>Xiongzhi Chen (2020): <em>A strong law of large numbers for simultaneously testing parameters of Lancaster bivariate distributions</em>. (Published) </li>
+      <li>Xiongzhi Chen and R.W. Doerge (2015): <i>Stopping time property of thresholds of Storey-type FDR procedures.</i> (Preprint) </li>
+      </ol>
+</ol>
+<h3>C. Current Projects in Mathematics by Topics </h3>
+<ul>
+  <li><strong>Classification of measures on the 2-sphere with  unique Frechet mean</strong>: This is a part of <em>Project 1 </em> in <strong>Current Projects</strong>. </li>
+</ul>
+<ul>
+ <li><strong>Classification of measures on symmetric spaces with  unique Frechet mean: </strong>This is also a part of <em>Project 1 </em> in <strong>Current Projects</strong>.</li>
+</ul>
+<ul>
+<li><b>Geometric probability</b>: Geometric probability is an exciting research the lies at the intersection of geometry and probability theory. This is a very challenging problem on the solution of a system of random linear equations. More information on it can be found at: <a href="#">https://mathoverflow.net/questions/202899/samuel-karlins-problem-probability-of-positive-solution-to-system-of-random-li</a></li>
+</ul>
+<ol>
+  <ol>
+    <li>Xiongzhi Chen (2015+): <i>On Samuel Karlin's problem of geometric probability and a variant.</i> (In prepartion.)      </li>
+  </ol>
+</ol>
+ <h3>D. Past Projects in Mathematics by Topics </h3>
+ <ul>
+  <li><b>Theory on one-parameter natural exponential families (NEFs)</b>: Natural exponential families are probability distributions that are widely used in statistical modeling and inference due to their simplicity and flexibility. However, the mathematics behind NEFs are often quite difficult and require excellent skills in analysis (both real analysis and complex analysis), measure theory and harmonic analysis since they are often studied and analyzed via their Laplace transforms on the complex domain. We often use generalized linear models to model observations by trying to capture the  mean-variance relationship of the underlying but unknown data generating distributions via the use of  an NEF. However, if a postulated mean-variance relationship does not exist, then the resulting model is meaningless. The following #a partially resolves the issue. On the other hand, for modeling with a low dimensional, latent linear space in the mean space (mentioned earlier) of random variables from an NEF, the existence of a reduction function is needed to estimate this space consistently. The following #b partially resolves this issue. There are several open problems related to NEFs that were communicated to me by Prof. Gerard Letac, who has been providing constant help and guidance on my research on NEFs. </li>
+</ul>
+<ol>
+  <ol>
+    <li>Xiongzhi Chen (2016): <i>Resolution of a conjecture on variance functions for one-parameter natural exponential family.</i>
+      (Published.)</li>
+    <li>Xiongzhi Chen (2018): <i>Reduction functions for the variance function of one-parameter natural exponential family.</i>
+(Published.)</li>
+  </ol>
+</ol>
+<ul>
+  <li><b>Time series models</b></li>
+</ul>
+<ol>
+  <ol>
+    <li>Xiongzhi Chen (2015): <em>Explicit solutions to a vector time series model and its induced model for business cycles</em>. (Preprint.)</li>
+  </ol>
+</ol>
+<ul>
+  <li><b>Diffusion processes: modeling and estimation</b></li>
+</ul>
+<ol>
+  <ol>
+    <li><a href="MA_2009_XiongzhiChen.pdf">Master's Thesis</a></li>
+  </ol>
+</ol>
+<ul>
+  <li><b>Neural networks</b></li>
+</ul>
+<ol>
+  <ol>
+    <li>Xiongzhi Chen and Changlin Cai (2006): <i>A new architecture for multilayer perceptrons as function approximators.</i> Natural Science Edition, Journal of Sichuan University, Vol. 2.       </li>
+      <li>Changlin Cai, Zhongzhi Shi, Xiongzhi Chen (2006): <i>The Fisher information matrix on neural manifolds of multilayer perceptrons.</i> Natural Science Edition, Journal of Sichuan University, Accepted.
+      <a href="study_research/FIM-1019-accep.pdf">pdf</a>.      </li>
+  </ol>
+</ol>
+<h2>Back to my <a href="welcome.php">homepage</a></h2>
+</div>
+</body>
+</html>
